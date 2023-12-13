@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 10px 30px 10px 10px;
+    min-width:400px;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input{
+    display: block;
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: 1px solid #5f9341
+}
+
+.button{
+    padding: 10px 20px;
+    color: #ffff;
+    font-weight:bold;
+    border: none;
+}
+
+.in{
+    background:green;
+    
+}
+.del{
+    background-color: wheat;
+}
+
+.tab{
+    background-color: forestgreen;
+}
+
+.button:active{
+    background-color:aqua;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+    padding-left:0px;
+}
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color:purple;}
